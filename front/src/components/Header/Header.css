@@ -1,0 +1,127 @@
+.header_technohood {
+    background: transparent;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_technohood .header-wrapper {
+    width: 93.5%;
+}
+
+.header_technohood .header-wrapper .navbar .navbar-container {
+    width: 100%;
+}
+.header_technohood .header-wrapper .navbar .navbar-container .nav-logo{
+    max-width:80px;
+}
+
+.header_technohood .main-nav {
+    list-style-type: none;
+    margin: 0;
+}
+
+.header_technohood .nav-links,
+.logo {
+    text-decoration: none;
+    color:  #ffffff;
+    font-size: .9rem;
+}
+
+.header_technohood .nav-links:active,
+.logo:active {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.header_technohood .nav-links:focus,
+.logo:focus {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.header_technohood .main-nav li {
+    text-align: center;
+    color: #283285;
+}
+.header_technohood .nav-list .nav-links
+{
+    cursor: pointer;
+    color: #283285;
+    transition: .3s;
+}
+.header_technohood .nav-list .nav-links:hover
+{
+    color: #1998d8;
+}
+
+.header_technohood .extras-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.header_technohood .responsive-popup-menu
+{
+    z-index: 1;
+    position: absolute;
+    top: 80px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.header_technohood .responsive-menu-btn img
+{
+    width: 25px;
+    height: 25px;
+}
+
+.header_technohood .extras-btns > button {
+    border: none;
+    border-radius: 3px;
+}
+.header_technohood .extras-btns .get-quote-btn{
+    border: 1px solid #F2CC52;
+    background: transparent;
+    color: #F2CC52;
+    padding:5px 10px;
+    transition: .3s;
+
+}
+.header_technohood .extras-btns .get-quote-btn:hover{
+    background-color: #F2CC52;
+    color: black;
+    cursor: pointer;
+}
+.header_technohood .extras-btns .blue-btn
+{
+    background-color: #283285;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    transition: .3s;
+}
+.header_technohood .extras-btns .blue-btn:hover{
+    background-color: #20276a;
+    cursor: pointer;
+}
+.header_technohood .extras-btns .blue-btn img {
+    width: 17px;
+    margin-right: 3px;
+}
+
+.header_technohood .resp-nav-list .nav-links 
+{
+    color: black;
+}
+
+.header_technohood .resp-nav-list li{
+    list-style: none;
+}
+.header_technohood .resp-nav-list
+{
+    width: 100%;
+}

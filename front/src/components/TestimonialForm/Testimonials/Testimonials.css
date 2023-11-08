@@ -1,0 +1,86 @@
+.Testimonials-container
+{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40em;
+    background-color: #ffffff;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 3em;
+}
+
+.Testimonials-container .text-content
+{
+    color: black;
+    width: 50%;
+}
+
+.Testimonials-container .testimonial-card
+{
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+.Testimonials-container .testimonial-card .quote-img
+{
+    width: 3em;
+}
+
+.Testimonials-container .testimonial-card p
+{
+    line-height: 1.5;
+    margin: 15px 0;
+    white-space: normal;
+}
+
+.Testimonials-container .profile-info
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Testimonials-container .profile-info .profile-info-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.Testimonials-container .profile-info .profile-info-text img
+{
+   width: 100px;
+}
+
+.Testimonials-container .profile-info img{
+    border-radius: 50%;
+    width: 60px;
+}
+.Testimonials-container .profile-info h5{
+   font-size: 1.3rem;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+
+
+@media (max-width: 730px) {
+    .Testimonials-container
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .Testimonials-container .text-content
+    {
+        width: 80%;
+    }
+}

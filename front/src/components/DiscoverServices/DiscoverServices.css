@@ -1,0 +1,54 @@
+.discover-container
+{
+    background-color: #FBFBFB;
+}
+.discover-container .text-content h3
+{
+    font-size: 3rem;
+}
+.discover-container .text-content .body-paragraph
+{
+    width: 80%;
+    margin: auto;
+}
+
+.discover-container .discover-card-box
+{
+    background-color: #FBFBFB;
+    box-shadow: 0px 10px 26px -3px rgba(0,0,0,0.2);
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 15px;
+    padding:15px 10px;
+    transition: .3s;
+}
+.discover-container .discover-card-box:hover
+{
+    background-color: rgb(129, 129, 243);
+    color: white;
+    border: 1px solid #283285;
+    cursor: pointer;
+}
+
+.discover-container .discover-card-box .card-icon img{
+    width: 40px;
+    height: 40px;
+}
+.discover-container .discover-card-box .card-icon{
+   padding: 15px;
+   border-radius: 50%;
+   background-color: #EAEBF3;
+}
+
+@media (max-width: 1200px)
+{
+    /* .discover-container .discover-card-box p
+    {
+        height: 2rem;
+    }    */
+} 
