@@ -5,6 +5,7 @@ import DiscoverServices from "../components/DiscoverServices/DiscoverServices"
 import Header from "../components/Header/Header"
 import CommonBanner from "../components/Common Banner Component/HeroBanner"
 import TestimonialForm from '../components/TestimonialForm/TestimonialForm'
+import Blog from "../components/CardBlog/CardBlog"
 
 function home() {
   return (
@@ -20,6 +21,7 @@ function home() {
       />
       <WhatWeDo/>
       <DiscoverServices/>
+      <Blog/>
       <TestimonialForm/>
       <Footer/>
     </>

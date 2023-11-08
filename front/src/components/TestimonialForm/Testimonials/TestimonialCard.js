@@ -11,9 +11,9 @@ function TestimonialCard(props) {
         </div>
         <p>{props.clientReview}</p>
 
-        <div>
+        <div className="testimonial-card-info">
           <p>{props.count} --- {props.total}</p>
-          <div>
+          <div className="testimonial-card-control">
             <div className="swiper-button-prev"><img src="/images/icons/arrow-left.svg"/></div>
             <div className="swiper-button-next"><img src="/images/icons/arrow-right.svg"/></div>
           </div>

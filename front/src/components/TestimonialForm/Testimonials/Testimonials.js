@@ -27,6 +27,9 @@ function Testimonials() {
             }}
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000 }}
+            observer ={true}
+            observeParents={true}
+            parallax={true}
             className="testimonials-list"
             >
               {

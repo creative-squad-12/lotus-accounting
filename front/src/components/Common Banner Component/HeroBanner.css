@@ -31,9 +31,11 @@
 {
   background-color: #283285;
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
-  padding: 5px 20px;
+  padding: 7px 30px;
+  padding-bottom: 9px;
+  transition: .3s;
 }
 
 .hero_content_wrapper .hero-section-heading
