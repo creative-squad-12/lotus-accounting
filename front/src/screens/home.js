@@ -1,8 +1,6 @@
 import React from 'react'
 import WhatWeDo from "../components/WhatWeDo/WhatWeDo"
-import Footer from "../components/Footer/Footer"
 import DiscoverServices from "../components/DiscoverServices/DiscoverServices"
-import Header from "../components/Header/Header"
 import CommonBanner from "../components/Common Banner Component/HeroBanner"
 import TestimonialForm from '../components/TestimonialForm/TestimonialForm'
 import Blog from "../components/CardBlog/CardBlog"
@@ -10,7 +8,6 @@ import Blog from "../components/CardBlog/CardBlog"
 function home() {
   return (
     <>
-      {/* <Header/> */}
       <CommonBanner
         Heading="LOTUS ACCOUNTING"
         HighlightedSpan="WELCOME TO"
@@ -23,7 +20,6 @@ function home() {
       <DiscoverServices/>
       <Blog/>
       <TestimonialForm/>
-      <Footer/>
     </>
   )
 }

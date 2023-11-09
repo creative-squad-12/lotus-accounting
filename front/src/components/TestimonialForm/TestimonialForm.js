@@ -7,9 +7,9 @@ function TestimonialForm() {
   return (
     <div className='testimonial-form-container'>
         <Testimonials/>
-        <div className='testimonial-contact-form'>
-            <ContactForm/>
-        </div>
+        {/* <div className='testimonial-contact-form'> */}
+            <ContactForm />
+        {/* </div> */}
     </div>
   )
 }

@@ -1,0 +1,28 @@
+.AboutIcons-container
+{
+    padding: 50px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.AboutIcons-container .icon-container .icon-container-img{
+    width: 90px;
+    height: 70px;
+}
+.AboutIcons-container .icon-container h4
+{
+    color: #283285;
+    font-size:2.3rem;
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-top: 8px;
+}
+
+.AboutIcons-container .icon-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

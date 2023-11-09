@@ -1,0 +1,16 @@
+.aboutIdeas-container
+{
+
+}
+
+.aboutIdeas-container .text-main-heading
+{
+    font-weight: 600;
+}
+
+.aboutIdeas-container .text-sub-heading
+{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #283285;
+}

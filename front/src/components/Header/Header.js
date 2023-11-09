@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -22,34 +23,34 @@ const Header = () => {
                   id="js-menu"
                 >
                   <li>
-                    {/* <Link to={"/home"} className="nav-links"> */}
+                    <Link to={"/home"} className="nav-links">
                       HOME
-                    {/* </Link> */}
+                    </Link>
                   </li>
                   <li>
-                    {/* <Link to={"/about"} className="nav-links"> */}
+                    <Link to={"/about"} className="nav-links">
                       ABOUT US
-                    {/* </Link> */}
+                    </Link>
                   </li>
                   <li>
-                    {/* <Link to={"/services"} className="nav-links"> */}
+                    <Link to={"/home"} className="nav-links">
                       SERVICES
-                    {/* </Link> */}
+                    </Link>
                   </li>
                   <li>
-                    {/* <Link to={"/home"} className="nav-links"> */}
+                    <Link to={"/home"} className="nav-links">
                       WORK
-                    {/* </Link> */}
+                    </Link>
                   </li>
                   <li>
-                    {/* <Link to={"/home"} className="nav-links"> */}
+                    <Link to={"/home"} className="nav-links">
                       CLIENTS
-                    {/* </Link> */}
+                    </Link>
                   </li>
                   <li>
-                    {/* <Link to={"/home"} className="nav-links"> */}
+                    <Link to={"/home"} className="nav-links">
                       CONTACTS
-                    {/* </Link> */}
+                    </Link>
                   </li>
                 </ul>
               </nav>
@@ -81,34 +82,34 @@ const Header = () => {
               style={{ display: menuState ? "block" : "none" }}
             >
               <li>
-                {/* <Link to={"/home"} className="nav-links"> */}
+                <Link to={"/home"} className="nav-links">
                   HOME
-                {/* </Link> */}
+                </Link>
               </li>
               <li>
-                {/* <Link to={"/about"} className="nav-links"> */}
+                <Link to={"/about"} className="nav-links">
                   ABOUT US
-                {/* </Link> */}
+                </Link>
               </li>
               <li>
-                {/* <Link to={"/services"} className="nav-links"> */}
+                <Link to={"/home"} className="nav-links">
                   SERVICES
-                {/* </Link> */}
+                </Link>
               </li>
               <li>
-                {/* <Link to={"/home"} className="nav-links"> */}
+                <Link to={"/home"} className="nav-links">
                   WORK
-                {/* </Link> */}
+                </Link>
               </li>
               <li>
-                {/* <Link to={"/home"} className="nav-links"> */}
+                <Link to={"/home"} className="nav-links">
                   CLIENTS
-                {/* </Link> */}
+                </Link>
               </li>
               <li>
-                {/* <Link to={"/home"} className="nav-links"> */}
+                <Link to={"/home"} className="nav-links">
                   CONTACTS
-                {/* </Link> */}
+                </Link>
               </li>
               <li>
                 <div className="nav-buttton mt-4 flex-wrap d-flex gap-4 extras-btns">
