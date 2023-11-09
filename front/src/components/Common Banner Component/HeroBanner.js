@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 
 const HeroBanner = ({
   Heading,
-  HighlightedSpan,
+  subHeading,
   Paragraph,
   btnText,
   bgImg,
@@ -14,7 +14,7 @@ const HeroBanner = ({
     <div className="common_hero_section" style={{backgroundImage: `url(${bgImg})`}}>
       <Header/>
       <div className="hero_content_wrapper ">
-        <span>{HighlightedSpan}</span>
+        <span>{subHeading}</span>
         <h1 className="hero-section-heading">
           {Heading}
         </h1>

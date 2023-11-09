@@ -1,0 +1,14 @@
+.servicesText-container
+{
+}
+
+.servicesText-container .blue-btn
+{
+    background-color: #283285;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 7px 30px;
+    padding-bottom: 9px;
+    transition: .3s;
+}

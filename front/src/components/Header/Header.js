@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <div className={`header_technohood`}>
+    <div className={`header_lotus`}>
       <div className="header-wrapper ">
         <nav className="navbar d-md-flex flex-md-row d-block">
           <nav className="navbar-container px-4 py-2">
@@ -19,7 +19,7 @@ const Header = () => {
               <img src="/images/icons/logo.png" className="nav-logo" />
               <nav>
                 <ul
-                  className="nav-list d-lg-flex gap-4 gap-xl-5 align-items-center d-none main-nav"
+                  className="nav-list d-lg-flex gap-xl-4 align-items-center d-none main-nav"
                   id="js-menu"
                 >
                   <li>
@@ -33,23 +33,23 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/home"} className="nav-links">
-                      SERVICES
+                    <Link to={"/services"} className="nav-links">
+                      CONSULTATION SERVICES
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/accountingfinance"} className="nav-links">
+                      ACCOUNTING & TAX SERVICES
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/news"} className="nav-links">
+                      NEWS
                     </Link>
                   </li>
                   <li>
                     <Link to={"/home"} className="nav-links">
-                      WORK
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/home"} className="nav-links">
-                      CLIENTS
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/home"} className="nav-links">
-                      CONTACTS
+                      CONTACT US
                     </Link>
                   </li>
                 </ul>
@@ -92,23 +92,23 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/home"} className="nav-links">
-                  SERVICES
+                <Link to={"/services"} className="nav-links">
+                  CONSULTATION SERVICES
+                </Link>
+              </li>
+              <li>
+                <Link to={"/accountingfinance"} className="nav-links">
+                  ACCOUNTING & TAX SERVICES
+                </Link>
+              </li>
+              <li>
+                <Link to={"/news"} className="nav-links">
+                  NEWS
                 </Link>
               </li>
               <li>
                 <Link to={"/home"} className="nav-links">
-                  WORK
-                </Link>
-              </li>
-              <li>
-                <Link to={"/home"} className="nav-links">
-                  CLIENTS
-                </Link>
-              </li>
-              <li>
-                <Link to={"/home"} className="nav-links">
-                  CONTACTS
+                  CONTACT US
                 </Link>
               </li>
               <li>

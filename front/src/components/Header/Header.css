@@ -1,4 +1,4 @@
-.header_technohood {
+.header_lotus {
     background: transparent;
     z-index: 1;
     position: relative;
@@ -7,63 +7,65 @@
     justify-content: center;
 }
 
-.header_technohood .header-wrapper {
+.header_lotus .header-wrapper {
     width: 93.5%;
 }
 
-.header_technohood .header-wrapper .navbar .navbar-container {
+.header_lotus .header-wrapper .navbar .navbar-container {
     width: 100%;
 }
-.header_technohood .header-wrapper .navbar .navbar-container .nav-logo{
+.header_lotus .header-wrapper .navbar .navbar-container .nav-logo{
     max-width:80px;
 }
 
-.header_technohood .main-nav {
+.header_lotus .main-nav {
     list-style-type: none;
     margin: 0;
 }
 
-.header_technohood .nav-links,
+.header_lotus .nav-links,
 .logo {
     text-decoration: none;
     color:  #ffffff;
     font-size: .9rem;
 }
 
-.header_technohood .nav-links:active,
+.header_lotus .nav-links:active,
 .logo:active {
     color: #ffffff;
     font-weight: 500;
 }
 
-.header_technohood .nav-links:focus,
+.header_lotus .nav-links:focus,
 .logo:focus {
     color: #ffffff;
     font-weight: 500;
 }
 
-.header_technohood .main-nav li {
+.header_lotus .main-nav li {
     text-align: center;
     color: #283285;
 }
-.header_technohood .nav-list .nav-links
+.header_lotus .nav-list .nav-links
 {
+    font-size: .8rem;
+    font-weight: 500;
     cursor: pointer;
     color: #283285;
     transition: .3s;
 }
-.header_technohood .nav-list .nav-links:hover
+.header_lotus .nav-list .nav-links:hover
 {
     color: #1998d8;
 }
 
-.header_technohood .extras-btns {
+.header_lotus .extras-btns {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
-.header_technohood .responsive-popup-menu
+.header_lotus .responsive-popup-menu
 {
     z-index: 1;
     position: absolute;
@@ -72,30 +74,18 @@
     color: black;
 }
 
-.header_technohood .responsive-menu-btn img
+.header_lotus .responsive-menu-btn img
 {
     width: 25px;
     height: 25px;
 }
 
-.header_technohood .extras-btns > button {
+.header_lotus .extras-btns > button {
     border: none;
     border-radius: 3px;
 }
-.header_technohood .extras-btns .get-quote-btn{
-    border: 1px solid #F2CC52;
-    background: transparent;
-    color: #F2CC52;
-    padding:5px 10px;
-    transition: .3s;
 
-}
-.header_technohood .extras-btns .get-quote-btn:hover{
-    background-color: #F2CC52;
-    color: black;
-    cursor: pointer;
-}
-.header_technohood .extras-btns .blue-btn
+.header_lotus .extras-btns .blue-btn
 {
     background-color: #283285;
     color: white;
@@ -105,24 +95,35 @@
     padding-bottom: 9px;
     transition: .3s;
 }
-.header_technohood .extras-btns .blue-btn:hover{
+.header_lotus .extras-btns .blue-btn:hover{
     background-color: #20276a;
     cursor: pointer;
 }
-.header_technohood .extras-btns .blue-btn img {
+.header_lotus .extras-btns .blue-btn img {
     width: 17px;
     margin-right: 3px;
 }
 
-.header_technohood .resp-nav-list .nav-links 
+.header_lotus .resp-nav-list .nav-links 
 {
     color: black;
 }
 
-.header_technohood .resp-nav-list li{
+.header_lotus .resp-nav-list li{
     list-style: none;
 }
-.header_technohood .resp-nav-list
+.header_lotus .resp-nav-list
 {
     width: 100%;
+}
+
+@media(max-width : 1200px)
+{
+    .header_lotus .nav-list .nav-links
+    {
+        font-size: .6rem;
+        margin-right: 6px;
+        margin-left: 6px;
+        font-weight: 500;
+    }
 }
