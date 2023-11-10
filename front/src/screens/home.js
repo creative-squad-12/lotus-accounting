@@ -4,6 +4,7 @@ import DiscoverServices from "../components/DiscoverServices/DiscoverServices"
 import CommonBanner from "../components/Common Banner Component/HeroBanner"
 import TestimonialForm from '../components/TestimonialForm/TestimonialForm'
 import Blog from "../components/CardBlog/CardBlog"
+import FinancialDropdown from '../components/FinancialDropdown/FinancialDropdown'
 
 function home() {
   return (
@@ -16,6 +17,7 @@ function home() {
         bgImg="/images/creative/Hero.jpg"
         btn="true"
       />
+      <FinancialDropdown/>
       <WhatWeDo/>
       <DiscoverServices/>
       <Blog/>

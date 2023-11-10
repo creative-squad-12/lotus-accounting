@@ -5,6 +5,7 @@ import About from "./screens/about"
 import Services from './screens/services';
 import AccountingFinance from './screens/accountingfinance';
 import News from './screens/news';
+import Contact from './screens/contact';
 import { Routes, Route } from 'react-router-dom';
 import Footer from "./components/Footer/Footer"
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/accountingfinance" element={<AccountingFinance />} />
         <Route path="/news" element={<News />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>
     </>

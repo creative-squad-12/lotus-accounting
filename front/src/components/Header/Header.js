@@ -48,7 +48,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/home"} className="nav-links">
+                    <Link to={"/contact"} className="nav-links">
                       CONTACT US
                     </Link>
                   </li>
@@ -107,7 +107,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/home"} className="nav-links">
+                <Link to={"/contact"} className="nav-links">
                   CONTACT US
                 </Link>
               </li>
