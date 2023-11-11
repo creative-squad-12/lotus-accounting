@@ -6,7 +6,7 @@ function TestimonialCard(props) {
             <img src={props.clientImg} alt="" />
             <div className="profile-info-text">
               <h5>{props.clientName}</h5>
-              <img src="/images/icons/rating-stars.svg" />
+              <img src="/images/icons/rating-stars.svg" style={{borderRadius:0}}/>
             </div>
         </div>
         <p>{props.clientReview}</p>
