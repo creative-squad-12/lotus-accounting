@@ -15,7 +15,7 @@
     width: 100%;
 }
 .header_lotus .header-wrapper .navbar .navbar-container .nav-logo{
-    max-width:80px;
+    max-width:100px;
 }
 
 .header_lotus .main-nav {
@@ -48,15 +48,15 @@
 }
 .header_lotus .nav-list .nav-links
 {
-    font-size: .8rem;
-    font-weight: 500;
+    font-size: .9rem;
+    font-weight: 600;
     cursor: pointer;
-    color: #283285;
+    color: #5E5E5E;
     transition: .3s;
 }
 .header_lotus .nav-list .nav-links:hover
 {
-    color: #1998d8;
+    color: #283285;
 }
 
 .header_lotus .extras-btns {
@@ -80,10 +80,7 @@
     height: 25px;
 }
 
-.header_lotus .extras-btns > button {
-    border: none;
-    border-radius: 3px;
-}
+
 
 .header_lotus .extras-btns .blue-btn
 {
@@ -91,8 +88,7 @@
     color: white;
     border-radius: 20px;
     border: none;
-    padding: 7px 30px;
-    padding-bottom: 9px;
+    padding: 10px 20px;
     transition: .3s;
 }
 .header_lotus .extras-btns .blue-btn:hover{
@@ -121,9 +117,9 @@
 {
     .header_lotus .nav-list .nav-links
     {
-        font-size: .6rem;
-        margin-right: 6px;
-        margin-left: 6px;
+        font-size: .7rem;
+        margin-right: 5px;
+        margin-left: 5px;
         font-weight: 500;
     }
 }

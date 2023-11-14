@@ -11,7 +11,7 @@ const Contactform = () => {
         <div className="row gy-4 gx-lg-5">
           <div className="col-sm-12 " >
             <div className="contact-details" >
-              <h2 className="h2_main mb-4 ">
+              <h2 className="h2_main mb-4 body-heading">
                 Lorem Ipsum is simply dummy text of the printing
               </h2>
               <p className="para_main">

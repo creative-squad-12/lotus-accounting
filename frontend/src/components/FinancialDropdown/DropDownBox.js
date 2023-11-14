@@ -4,7 +4,7 @@ function DropDownBox(props) {
     const [dropOpen , setDropOpen] = useState(false)
   return (
     <div
-      className={`dropdown-box p-2 py-4`}
+      className={`dropdown-box py-4`}
       onClick={() => {
         setDropOpen((prev) => {
           return !prev;

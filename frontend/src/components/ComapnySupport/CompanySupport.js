@@ -3,14 +3,14 @@ import "./CompanySupport.css"
 
 function CompanySupport() {
   return (
-    <div className='companySupport-container'>
-        <div className='container'>
-            <div className='row'>
+    <div className='companySupport-container standard-margin-space'>
+        <div className='container my-5'>
+            <div className='row gy-4'>
                 <div className='col-md-6'>
                     <div className='text-content d-flex flex-column align-items-start justify-content-center gap-4'>
-                        <h3>CompanySupport</h3>
+                        <h3 className='body-heading mb-0' style={{color:"#283285"}}>Lorem Ipsum is simply dummy text of the printing</h3>
                         <h6>"No matter how small your business, Lotus Accounting can help you grow"</h6>
-                        <p>Lotus Accounting is a chartered professional accounting firm (CPA). The ‘Chartered’ title is recognized around the world as a professional designation indicating the highest levels of technical expertise</p>
+                        <p className='body-paragraph'>Lotus Accounting is a chartered professional accounting firm (CPA). The ‘Chartered’ title is recognized around the world as a professional designation indicating the highest levels of technical expertise</p>
                         <ul>
                             <li className='d-flex gap-4 my-2 align-items-center'><img src='/images/icons/tick.svg' /><p className='m-0'>Professionally qualified</p></li>
                             <li className='d-flex gap-4 my-2 align-items-center'><img src='/images/icons/tick.svg' /><p className='m-0'>Undertake mandatory professional development</p></li>

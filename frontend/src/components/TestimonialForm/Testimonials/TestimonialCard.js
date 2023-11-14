@@ -1,5 +1,6 @@
 
 function TestimonialCard(props) {
+ 
   return (
     <div className="testimonial-card">
         <div className="profile-info">
@@ -14,8 +15,12 @@ function TestimonialCard(props) {
         <div className="testimonial-card-info">
           <p>{props.count} --- {props.total}</p>
           <div className="testimonial-card-control">
-            <div className="swiper-button-prev"><img src="/images/icons/arrow-left.svg"/></div>
-            <div className="swiper-button-next"><img src="/images/icons/arrow-right.svg"/></div>
+            <div className="swiper-button-prev" onClick={props.handlePrevButtonClick}>
+                <img src="/images/icons/arrow-left.svg"/>
+            </div>
+            <div className="swiper-button-next" onClick={props.handleNextButtonClick}>
+                <img src="/images/icons/arrow-right.svg"/>
+            </div>
           </div>
         </div>
     </div>

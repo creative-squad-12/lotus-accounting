@@ -2,11 +2,11 @@ import "./DiscoverServices.css";
 
 function WhyChooseUs() {
   return (
-    <div className="discover-container">
-      <div className="container py-2">
+    <div className="discover-container standard-padding-space">
+      <div className="container ">
         <div className="row">
           <div className="col-sm-12 text-center my-5 text-content">
-            <h3 className="main-heading">DISCOVER OUR SERVICES</h3>
+            <h3 className="body-heading">DISCOVER OUR SERVICES</h3>
             <p className="body-paragraph mt-3">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

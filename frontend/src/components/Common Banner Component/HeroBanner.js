@@ -20,8 +20,8 @@ const HeroBanner = ({
     >
       <Header />
 
-      <div className="container h-100 d-flex align-items-center py-5">
-        <div className="row gy-2">
+      <div className="container d-flex align-items-center py-5">
+        <div className="row gy-2 mt-5">
           <div
             className={
               serviceForm
@@ -29,9 +29,9 @@ const HeroBanner = ({
                 : "col-12 hero_content_wrapper"
             }
           >
-            <div className="hero-text-content">
-            <span>{subHeading}</span>
-            <h1 className="hero-section-heading">
+            <div className="hero-text-content mt-3 ">
+            <h5 className="sub-heading w-100">{subHeading}</h5>
+            <h1 className="hero-section-heading ">
               {Heading}
               <span className="heading-color-change">{spanHeading}</span>
             </h1>

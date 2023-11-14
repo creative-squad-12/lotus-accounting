@@ -4,7 +4,7 @@ import AboutIconContainer from './AboutIconContainer'
 
 function AboutIcons() {
   return (
-    <div className='AboutIcons-container d-flex align-items-center justify-content-evenly gap-4 flex-wrap px-4'>
+    <div className='AboutIcons-container d-flex align-items-center justify-content-evenly gap-4 flex-wrap px-4 standard-padding-space'>
         <AboutIconContainer 
             img={'/images/icons/community.svg'}
             rating={650}

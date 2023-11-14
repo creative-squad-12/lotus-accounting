@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0; 
+  padding: 0;
+  scroll-behavior: smooth; 
+  font-family: 'Roboto', sans-serif; 
+}
+  
+/* 
+  Headings/Sub-Headings/Paragraphs/ Fonts Standard Spacing Fonts along with media queries,
+*/
+
+.standard-margin-space {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.standard-padding-space {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.body-heading, .hero-section-heading { 
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.body-heading { color: #373737; font-size: 40px; }
+
+.hero-section-heading { font-size: 60px; color: #373737;  }
+  
+.body-paragraph { 
+  font-weight: 400;
+  font-size: 16px;
+  color: #373737;
+}
+
+.sub-heading { 
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color:#283285;
+}
+  
+.blue-btn { 
+  padding: 0.4rem 2rem;
+  background: #283285;
+  font-size: 18px;
+  border: none;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}
+
+.blue-btn span {
+  margin-right: .4rem;
+}
+
+@media (max-width: 1250px) {
+  .body-heading  {
+    font-size: 37px;
+  }
+
+  .hero-section-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 460px) {
+  .body-heading  {
+    font-size: 30px;
+  }
+ 
+  .hero-section-heading  {
+    font-size: 40px;
+  }
+
+  .body-paragraph {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 380px) {
+  .body-heading  {
+    font-size: 27px;
+  }
+
+  .hero-section-heading  {
+    font-size: 32px;
+  }
+
+  .body-paragraph {
+    font-size: 14px;
+  }
+
+  .sub-heading {  
+    font-size: 12px; 
+  } 
 }

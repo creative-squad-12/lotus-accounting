@@ -4,10 +4,10 @@ import NewsCard from "./NewsCard";
 
 function NewsList() {
 
-  const newsData = [{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"}]
+  const newsData = [{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"}]
 
   return (
-    <div className={`main`}>
+    <div className={`main py-4`}>
       <div className="conatinaer">
         <div className="row w-100">
           {newsData.map((ele ,ind)=>{

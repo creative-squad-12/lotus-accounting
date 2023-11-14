@@ -17,8 +17,8 @@ function home() {
         bgImg="/images/creative/Hero.jpg"
         btn="true"
       />
-      <FinancialDropdown/>
       <WhatWeDo/>
+      <FinancialDropdown/>
       <DiscoverServices/>
       <Blog/>
       <TestimonialForm/>

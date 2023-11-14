@@ -17,6 +17,16 @@
 
 }
 
+.contact_section .contact-details .body-heading
+{
+  font-size: 30px;
+}
+
+.contact_section .contact-details .para_main
+{
+  font-size: 1.5rem;
+}
+
 .contact_section h4,
 .contact_section h2,
 .contact_section p {
