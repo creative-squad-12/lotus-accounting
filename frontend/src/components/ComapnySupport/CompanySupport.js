@@ -3,8 +3,8 @@ import "./CompanySupport.css"
 
 function CompanySupport() {
   return (
-    <div className='companySupport-container standard-margin-space'>
-        <div className='container my-5'>
+    <div className='companySupport-container standard-margin-space my-5'>
+        <div className='container mt-5'>
             <div className='row gy-4'>
                 <div className='col-md-6'>
                     <div className='text-content d-flex flex-column align-items-start justify-content-center gap-4'>

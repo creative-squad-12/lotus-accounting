@@ -1,0 +1,25 @@
+.news-container
+{
+    
+}
+
+.news-container .page-btn-container button
+{
+    padding:3px 13px;
+    border: none;
+    background-color: white;
+    color: #A3A3A3;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+.news-container .page-btn-container button .next-icon
+{
+    width: 15px;
+    max-height: 9px;
+}
+.news-container .page-btn-container .active
+{
+    background-color: #283285;
+    color: white;
+}

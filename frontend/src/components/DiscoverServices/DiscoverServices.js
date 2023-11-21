@@ -14,15 +14,15 @@ function WhyChooseUs() {
             </p>
           </div>
           <div className="col-sm-12">
-            <div className="container">
+            <div className="container mt-4">
               <div className="row gy-4">
                 <div className="col-lg-3 col-md-4 col-sm-6 col-12">
                   <div className="discover-card-box mx-auto">
                     <div className="card-icon">
                         <img src="/images/icons/Group-1330.svg" />
                     </div>
-                    <h5>Personal & Corporate Tax</h5>
-                    <p>
+                    <h5 className="card-title">Personal & Corporate Tax</h5>
+                    <p className="card-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard
@@ -35,8 +35,8 @@ function WhyChooseUs() {
                     <div className="card-icon">
                         <img src="/images/icons/Group-1331.svg" />
                     </div>
-                    <h5>Personal & Corporate Tax</h5>
-                    <p>
+                    <h5 className="card-title">Personal & Corporate Tax</h5>
+                    <p className="card-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard
@@ -49,8 +49,8 @@ function WhyChooseUs() {
                     <div className="card-icon">
                         <img src="/images/icons/Group-1332.svg" />
                     </div>
-                    <h5>Personal & Corporate Tax</h5>
-                    <p>
+                    <h5 className="card-title">Personal & Corporate Tax</h5>
+                    <p className="card-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard
@@ -63,8 +63,8 @@ function WhyChooseUs() {
                     <div className="card-icon">
                         <img src="/images/icons/Group-1333.svg" />
                     </div>
-                    <h5>Personal & Corporate Tax</h5>
-                    <p>
+                    <h5 className="card-title">Personal & Corporate Tax</h5>
+                    <p className="card-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard
@@ -77,8 +77,8 @@ function WhyChooseUs() {
                     <div className="card-icon">
                         <img src="/images/icons/Group-1334.svg" />
                     </div>
-                    <h5>Personal & Corporate Tax</h5>
-                    <p>
+                    <h5 className="card-title">Personal & Corporate Tax</h5>
+                    <p className="card-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard
@@ -91,8 +91,8 @@ function WhyChooseUs() {
                     <div className="card-icon">
                         <img src="/images/icons/Group-1335.png" />
                     </div>
-                    <h5>Personal & Corporate Tax</h5>
-                    <p>
+                    <h5 className="card-title">Personal & Corporate Tax</h5>
+                    <p className="card-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard
@@ -105,8 +105,8 @@ function WhyChooseUs() {
                     <div className="card-icon">
                         <img src="/images/icons/Group-1336.svg" />
                     </div>
-                    <h5>Personal & Corporate Tax</h5>
-                    <p>
+                    <h5 className="card-title">Personal & Corporate Tax</h5>
+                    <p className="card-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard
@@ -119,8 +119,8 @@ function WhyChooseUs() {
                     <div className="card-icon">
                         <img src="/images/icons/Group-1337.svg" />
                     </div>
-                    <h5>Personal & Corporate Tax</h5>
-                    <p>
+                    <h5 className="card-title">Personal & Corporate Tax</h5>
+                    <p className="card-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard

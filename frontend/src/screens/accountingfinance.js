@@ -19,49 +19,49 @@ const tabContent = [
     title: "Personal & Corporate Tax",
     img:"/images/creative/tab-img.jpg",
     heading: "Title heading for 2",
-    content:"content for 2"
+    content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
   },
   {
     id : 3,
     title: "Notice to Reader",
     img:"/images/creative/tab-img.jpg",
     heading: "Title heading for 3",
-    content:"content for 3"
+    content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
   },
   {
     id : 4,
     title: "Payroll Services",
     img:"/images/creative/tab-img.jpg",
     heading: "Title heading for 4",
-    content:"content for 4"
+    content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
   },
   {
     id : 5,
     title: "Financial Statements & Analysis",
     img:"/images/creative/tab-img.jpg",
     heading: "Title heading for 5",
-    content:"content for 5"
+    content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
   },
   {
     id : 7,
     title: "Business Plan & Cash Flow",
     img:"/images/creative/tab-img.jpg",
     heading: "Title heading for 7",
-    content:"content for 7"
+    content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
   },
   {
     id : 8,
     title: "Business Incorporation",
     img:"/images/creative/tab-img.jpg",
     heading: "Title heading for 8",
-    content:"content for 8"
+    content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
   },
   {
     id : 6,
     title: "Budgeting & Forecasting",
     img:"/images/creative/tab-img.jpg",
     heading: "Title heading for 6",
-    content:"content for 6"
+    content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
   },
 ];
 
@@ -78,8 +78,8 @@ function accountingfinance() {
         bgImg="/images/creative/services-inner-bg.jpg"
         btn={false}
       />
-      <AboutIcons />
       <AccountTab tabContent={tabContent}/>
+      <AboutIcons />
       <Blog/>
       <TestimonialForm/>
     </>

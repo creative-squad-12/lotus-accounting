@@ -7,7 +7,7 @@ function NewsList() {
   const newsData = [{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"}]
 
   return (
-    <div className={`main py-4`}>
+    <div className={`news-container pb-3`}>
       <div className="conatinaer">
         <div className="row w-100">
           {newsData.map((ele ,ind)=>{
@@ -19,7 +19,14 @@ function NewsList() {
             </div>)
           })}
         </div>
+        <div className="page-btn-container my-5 d-flex align-items-center justify-content-center gap-3">
+          <button className="active">1</button>
+          <button>2</button>
+          <button>3</button>
+          <button><img src="/images/icons/arrow-right.svg" className="next-icon"/></button>
+        </div>
       </div>
+        
     </div>
   );
 }

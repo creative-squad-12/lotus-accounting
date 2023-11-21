@@ -29,8 +29,8 @@
 }
 .discover-container .discover-card-box:hover
 {
-    background-color: rgb(129, 129, 243);
-    color: white;
+    background-color: rgb(199, 199, 236);
+    /* color: white; */
     border: 1px solid #283285;
     cursor: pointer;
 }
@@ -45,10 +45,13 @@
    background-color: #EAEBF3;
 }
 
-@media (max-width: 1200px)
+.discover-container .discover-card-box .card-title
 {
-    /* .discover-container .discover-card-box p
-    {
-        height: 2rem;
-    }    */
-} 
+    font-size: 1rem;
+    font-weight:600;
+}
+
+.discover-container .discover-card-box .card-content
+{
+    font-size: .8rem;
+}

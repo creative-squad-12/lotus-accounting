@@ -29,7 +29,7 @@ function Footer() {
         <div className="middle-links-container">
             <div className="left">
                 <img src="images/icons/logo.png" alt="" />
-                <p className="body-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                <p className="body-paragraph mt-4" style={{color : "#FFFFFF",fontSize:".7rem"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
             </div>
             <div className="right">
                 <ul className="right-upper">
@@ -42,7 +42,7 @@ function Footer() {
                 <ul className="right-bottom">
                     <li>
                         <img src="images/icons/Group-1216.svg" alt="" />
-                        <a href="#">+33345564</a>
+                        <a href="#">416-662-8067</a>
                     </li>
                     <li>
                         <img src="images/icons/Group-1217.svg" alt="" />
@@ -59,7 +59,7 @@ function Footer() {
         {/* Lower sections */}
 
         <div className="lower-container">
-            <small>© Copyright 2021 Tech Hood printing Services Inc - All Rights Reserved</small>
+            <small>© Copyright 2021 Lotus accounting Services Inc - All Rights Reserved</small>
             <ul className="lower-link-list">
                 <li><img src="images/icons/Rectangle-1401.png" alt="" /></li>
                 <li><img src="images/icons/Rectangle-1402.png" alt="" /></li>

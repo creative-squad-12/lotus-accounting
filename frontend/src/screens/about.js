@@ -10,8 +10,8 @@ function about() {
   return (
     <>
         <CommonBanner
-          subHeading="WHY LOTUS ACCOUNTING"
-          Heading="ABOUT US"
+          subHeading="ABOUT US"
+          Heading= "WHY LOTUS ACCOUNTING"
           Paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took."
           btnText=""
           bgImg="/images/creative/about-bg.jpg"

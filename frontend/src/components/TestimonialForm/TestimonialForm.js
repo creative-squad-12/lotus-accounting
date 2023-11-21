@@ -5,11 +5,9 @@ import ContactForm from "./Contact Form/Contactform"
 
 function TestimonialForm() {
   return (
-    <div className='testimonial-form-container'>
+    <div className='testimonial-form-container' style={{ backgroundImage: `url(/images/creative/contact-form-bg.jpg)` }}>
         <Testimonials/>
-        {/* <div className='testimonial-contact-form'> */}
-            <ContactForm />
-        {/* </div> */}
+        <ContactForm />
     </div>
   )
 }

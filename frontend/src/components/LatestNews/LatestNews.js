@@ -10,7 +10,7 @@ function LatestNews() {
         <div className="text_content">
             <h3 className='h3_main mb-2'><span className='sub-heading'>Latest News</span></h3>
             <h2 className='h1_main mb-2 body-heading'>Every single update and story</h2>
-            <p className='para_main mb-3 body-paragraph'>Lorem Ipsum is simply dummy text of the printing</p>
+            <p className='para_main mb-3 body-paragraph'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             <div className="blog_news_logo">
                 <img alt="Empathy" src="/images/creative/card-logo.png" />
                 <div className="blog_news_logo_text">

@@ -8,18 +8,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 38em;
+  min-height: 33em;
 }
 
 .common_hero_section .hero_content_wrapper {
   display: flex;
-  padding-left: 20%;
+  padding-left: 0%;
   align-items: start;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
   height: 100%;
-  width: 65%;
+  width: 85%;
 }
 
 .common_hero_section .hero_content_wrapper .hero-section-heading,
@@ -49,13 +49,13 @@
 }
 .common_hero_section .service-form .service-from-btn
 {
-  background-color: #1998d8;
+  background-color: #283285;
   color: white;
   font-weight: 600;
   width: fit-content;
   padding: 5px 25px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-top: 25px;
 }
 .common_hero_section .service-form input
@@ -70,11 +70,16 @@
   outline: none;
 }
 
+.common_hero_section .hero-text-content .body-paragraph 
+{
+  width: 75%;
+}
+
 
 @media(max-width : 660px)
 {
-  .common_hero_section .hero_content_wrapper .hero-section-heading
+  .common_hero_section .hero-text-content .body-paragraph 
   {
-    /* max-width: 90%; */
+    width : 100%;
   }
 }

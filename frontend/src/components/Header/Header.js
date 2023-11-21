@@ -77,8 +77,9 @@ const Header = () => {
 
           {/* Dropdown in responsive mode */}
           <nav className="responsive-popup-menu w-100">
+            <div className="py-3 d-lg-none" style={{ display: menuState ? "block" : "none" }}>
             <ul
-              className="resp-nav-list d-lg-none w-100 gap-4 hs-dropdown [--trigger:hover] pl-4 py-3"
+              className="resp-nav-list d-lg-none w-100 gap-4 hs-dropdown [--trigger:hover] pl-4"
               style={{ display: menuState ? "block" : "none" }}
             >
               <li>
@@ -111,14 +112,13 @@ const Header = () => {
                   CONTACT US
                 </Link>
               </li>
-              <li>
-                <div className="nav-buttton mt-4 flex-wrap d-flex gap-4 extras-btns">
-                  <button className="blue-btn">
-                    Get Consultation
-                  </button>
-                </div>
-              </li>
             </ul>
+            <div className="nav-buttton flex-wrap d-flex gap-4 extras-btns">
+              <button className="blue-btn">
+                Get Consultation
+              </button>
+            </div>
+            </div>
           </nav>
         </nav>
       </div>

@@ -3,9 +3,9 @@ import "./ServicesTextContent.css"
 
 function ServicesTextContent(props) {
   return (
-    <div className='servicesText-container standard-padding-space' style={{backgroundColor: props.bgColor}}>
+    <div className='servicesText-container standard-padding-space my-4' style={{backgroundColor: props.bgColor}}>
         <div className='container'>
-            <div className={`row gy-4 d-flex ${props.shiftRow ? "flex-row-reverse" : ""} align-items-center justify-content-center `}>
+            <div className={`row gap-4 gap-md-0 d-flex ${props.shiftRow ? "flex-row-reverse" : ""} align-items-center justify-content-center `}>
                 <div className='col-md-6 '>
                     <div className='text-content d-flex flex-column align-items-start justify-content-center gap-lg-4 h-100'>
                         <h3 className='body-heading'>{props.heading}</h3>

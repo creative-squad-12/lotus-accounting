@@ -1,11 +1,6 @@
 .testimonial-form-container
 {
-}
-
-.testimonial-form-container .testimonial-contact-form
-{
-    
-    position: relative;
-    top: -40px;
-    z-index:-1;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

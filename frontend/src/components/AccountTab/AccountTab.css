@@ -7,6 +7,10 @@
 {
     cursor: pointer;
 }
+.account-tab-container .left-tab-content h5
+{
+    font-weight: 600;
+}
 
 .account-tab-container .line-seprator{
     width: 90%;

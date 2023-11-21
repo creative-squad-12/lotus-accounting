@@ -21,8 +21,8 @@ const AccountTab = (props)=>{
                     <div className='col-md-6'>
                         {props.tabContent.map((ele)=>{
                             return(<>
-                                <div className='left-tab-content py-3 ' onClick={()=>{setSelected(ele.id)}}>
-                                    <h5 >{ele.title}</h5>
+                                <div className={`left-tab-content py-3`} onClick={()=>{setSelected(ele.id)}}>
+                                    <h5 style={ele.id == selected ? {color : "#283285"} :{color:"#959595"}}>{ele.title}</h5>
                                 <div className='line-seprator'></div>
                                 </div>
                             </>)

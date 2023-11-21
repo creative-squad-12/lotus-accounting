@@ -8,7 +8,7 @@ function CardTestimonial() {
   const blogData = [{cardImg:"./images/creative/blog-card-img.jpg", title:"Tips Achieving Success In Business" ,content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been..."},{cardImg:"./images/creative/blog-card-img.jpg", title:"Tips Achieving Success In Business" ,content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been..."},{cardImg:"./images/creative/blog-card-img.jpg", title:"Tips Achieving Success In Business" ,content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been..."},{cardImg:"./images/creative/blog-card-img.jpg", title:"Tips Achieving Success In Business" ,content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been..."}]
 
   return (
-    <div className='blog-container standard-padding-space'>
+    <div className='blog-container standard-padding-space my-4'>
       <div className="blog-upper-content">
         <div className="container">
           <div className="row">

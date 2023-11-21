@@ -4,7 +4,6 @@ import "./Contactform.css";
 const Contactform = () => {
   return (
     <div
-      style={{ backgroundImage: `url(/images/creative/contact-form-bg.jpg)` }}
       className="contact_section"
     >
       <div className="container">
