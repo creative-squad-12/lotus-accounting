@@ -1,10 +1,11 @@
 .account-tab-container
 {
-
+    min-height: 40em;
 }
 
 .account-tab-container .left-tab-content 
 {
+    padding-top: 80px;
     cursor: pointer;
 }
 .account-tab-container .left-tab-content h5
@@ -12,8 +13,54 @@
     font-weight: 600;
 }
 
+.account-tab-container .boxed-text
+{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-left: 12px solid rgb(110, 110, 110);
+}
+.account-tab-container .boxed-text p
+{
+    padding: 15px 10px;
+    padding-left: 20px;
+}
+
 .account-tab-container .line-seprator{
     width: 90%;
     border: 1px solid rgba(128, 128, 128, 0.349);
     
   }
+
+.account-tab-container .right-pane-container .tab-title
+{
+    color: #283285;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    margin-top: 40px;
+}
+
+.account-tab-container .right-pane-container
+{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(220,229,235,1) 100%);
+    padding: 10px;
+    padding-top: 80px;
+    height: 550px;
+    overflow: scroll;
+}
+
+.account-tab-container .right-pane-container .tab-img
+{
+    border-radius: 20px;
+}
+
+.account-tab-container .right-pane-container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.account-tab-container .right-pane-container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

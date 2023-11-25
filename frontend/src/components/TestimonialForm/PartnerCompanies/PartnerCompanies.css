@@ -1,0 +1,13 @@
+.partnerCompanies_container .companies-logo-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:4rem 10px ;
+    gap: 30px;
+}
+ 
+.partnerCompanies_container .companies-logo-box img{
+    width: 240px;
+    max-height: 30px;
+}

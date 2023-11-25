@@ -16,9 +16,9 @@ const AccountTab = (props)=>{
 
     return(
         <div className='account-tab-container standard-margin-space'>
-            <div className='container'>
+            <div className='container-fluid' style={{paddingLeft:"5%"}}>
                 <div className='row gy-5'>
-                    <div className='col-md-6'>
+                    <div className='col-md-4'>
                         {props.tabContent.map((ele)=>{
                             return(<>
                                 <div className={`left-tab-content py-3`} onClick={()=>{setSelected(ele.id)}}>
@@ -28,7 +28,7 @@ const AccountTab = (props)=>{
                             </>)
                         })}
                     </div>
-                    <div className='col-md-6 d-flex align-items-center justify-content-center'>
+                    <div className='col-md-8 d-flex align-items-center justify-content-center'>
                         {
                             <RightPane heading={panel.heading} img={panel.img} content={panel.content} />
                         }

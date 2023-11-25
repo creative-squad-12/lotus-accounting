@@ -1,5 +1,8 @@
 .aboutIdeas-container
 {
+    background: radial-gradient(circle, rgba(243,248,251,1) 22%, rgba(255,255,255,1) 100%, rgba(230,236,241,1) 100%, rgba(251,251,251,1) 100%, rgba(241,241,241,1) 100%);
+    background-position: left;
+    background-repeat: no-repeat;
 
 }
 

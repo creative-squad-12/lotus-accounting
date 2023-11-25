@@ -1,16 +1,35 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState,useRef,useEffect } from "react";
+import { Link,useNavigate } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
   const [menuState, setMenuState] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isDropdownOpenDesk, setIsDropdownOpenDesk] = useState(false);
+  const navigate = useNavigate()
+  const clickCountRef = useRef(0);
+
+const onClickService = (e) => {
+    e.preventDefault();
+    
+      clickCountRef.current++;
+      if (clickCountRef.current === 1) {
+        setIsDropdownOpen(true);
+      } 
+      else if (clickCountRef.current === 2) {
+        setMenuState(false)
+        setIsDropdownOpen(false)
+        navigate("/services");
+        clickCountRef.current = 0;
+      }
+  };
 
   const menuClick = () => {
     setMenuState((prev) => !prev);
   };
 
   return (
-    <div className={`header_lotus`}>
+    <div className={`header`}>
       <div className="header-wrapper ">
         <nav className="navbar d-md-flex flex-md-row d-block">
           <nav className="navbar-container px-4 py-2">
@@ -32,11 +51,28 @@ const Header = () => {
                       ABOUT US
                     </Link>
                   </li>
-                  <li>
-                    <Link to={"/services"} className="nav-links">
-                      CONSULTATION SERVICES
-                    </Link>
-                  </li>
+
+                  <div className="navigation-dropdown" >
+                  <li onMouseEnter={()=>{setIsDropdownOpenDesk(true)}} >
+
+                      <div className="dropdown-trigger d-flex align-items-center">
+                          <Link to={"/services"} className="nav-links" onClick={()=>{setIsDropdownOpenDesk(false)}}>CONSULTATION SERVICES</Link>
+                          <img src='/images/icons/dropDown.png' className={isDropdownOpenDesk ? "rotate-icon arrow-icon":"rotate-back arrow-icon" }/>
+                      </div>
+                      <div className={`dropdown-content ${isDropdownOpenDesk ? 'open' : 'none-delay'}`} onMouseEnter={()=>{setIsDropdownOpenDesk(true)}} onMouseLeave={()=>{setIsDropdownOpenDesk(false)}}>
+              
+                        <Link to={"/home"} className="nav-links" onClick={()=>{setIsDropdownOpenDesk(false)}}>
+                          <p className="mb-0">HOME</p>
+                        </Link>
+                        <Link to={"/about"} className="nav-links" onClick={()=>{setIsDropdownOpenDesk(false)}}>
+                          <p className="mb-0">ABOUT</p>
+                        </Link>
+                      </div>
+                    </li>
+                    </div>
+
+
+
                   <li>
                     <Link to={"/accountingfinance"} className="nav-links">
                       ACCOUNTING & TAX SERVICES
@@ -92,11 +128,23 @@ const Header = () => {
                   ABOUT US
                 </Link>
               </li>
-              <li>
-                <Link to={"/services"} className="nav-links">
-                  CONSULTATION SERVICES
-                </Link>
-              </li>
+               <li>
+                <div className="navigation-dropdown">
+                  <div className="dropdown-trigger d-flex align-items-center" style={{color:"black"}} onClick={onClickService} >
+                      <a className="nav-links" >CONSULTATION SERVICES</a>
+                      <img src='/images/icons/dropDown.png' className={isDropdownOpen ? "rotate-icon arrow-icon":"rotate-back arrow-icon" } />
+                  </div>
+                  <div className={`dropdown-content ${isDropdownOpen ? 'open' : 'd-none'}`} style={{top:"85%",left:"0%"}}>
+                    
+                    <Link to={"/home"} className="nav-links" onClick={()=>{setIsDropdownOpen(false); setMenuState(false)}}>
+                      <p className="mb-0">HOME</p>
+                    </Link>
+                    <Link to={"/about"} className="nav-links" onClick={()=>{setIsDropdownOpen(false); setMenuState(false)}}>
+                      <p className="mb-0">ABOUT</p>
+                    </Link>
+                  </div>
+                </div>
+                </li>
               <li>
                 <Link to={"/accountingfinance"} className="nav-links">
                   ACCOUNTING & TAX SERVICES

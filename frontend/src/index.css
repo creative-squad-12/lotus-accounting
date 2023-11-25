@@ -35,15 +35,15 @@
 }
 
 .sub-heading { 
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-weight: 800;
+  letter-spacing: 3px;
   font-size: 14px;
   text-transform: uppercase;
   color:#283285;
 }
   
 .blue-btn { 
-  padding: 0.4rem 2rem;
+  padding: .6rem 2rem;
   background: #283285;
   font-size: 18px;
   border: none;

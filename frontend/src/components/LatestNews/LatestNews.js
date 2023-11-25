@@ -4,7 +4,7 @@ import "./LatestNews.css"
 function LatestNews() {
   return (
     <div className="news_container standard-margin-space">
-        <div className="news_img_container">
+        <div className="news_img_container px-5">
             <img className="latest_news_img img-fluid" src='/images/creative/news-banner.jpg' />
         </div>
         <div className="text_content">

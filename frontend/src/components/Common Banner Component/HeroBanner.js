@@ -9,15 +9,20 @@ const HeroBanner = ({
   Paragraph,
   btnText,
   bgImg,
+  bgVideo=false,
   btn=false,
   socialLinks=false,
   serviceForm=false
 }) => {
   return (
     <div
-      className="common_hero_section"
+      className={`common_hero_section ${bgVideo && "bg-video"}`}
       style={{ backgroundImage: `url(${bgImg})` }}
     >
+       { bgVideo && <video autoPlay loop muted>
+        <source src="./images/backgroundVideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>}
       <Header />
 
       <div className="container d-flex align-items-center py-5">
@@ -26,17 +31,17 @@ const HeroBanner = ({
             className={
               serviceForm
                 ? "col-md-6 "
-                : "col-12 hero_content_wrapper"
+                : "col-12 hero_content_wrapper px-3"
             }
           >
-            <div className="hero-text-content mt-3 px-4">
+            <div className="hero-text-content mt-3 ">
             <h5 className="sub-heading w-100">{subHeading}</h5>
             <h1 className="hero-section-heading " style={serviceForm ? {fontSize:"2.6rem"}:{}}>
               {Heading}
               <span className="heading-color-change">{spanHeading}</span>
             </h1>
             <p className="body-paragraph">{Paragraph}</p>
-            {btn && <button className="hero-btn">{btnText}</button>}
+            {btn && <button className="hero-btn blue-btn">{btnText}</button>}
             {socialLinks && (
               <div className="social-links py-2">
                 <div className="first-row d-flex gap-3">
@@ -81,7 +86,7 @@ const HeroBanner = ({
                 <input type="text" placeholder="Your Email Address" />
                 <input type="text" placeholder="Phone Number" />
                 <input type="text" placeholder="Your Message" />
-                <button className="service-from-btn">Submit</button>
+                <button className="service-from-btn  blue-btn">Submit</button>
               </div>
             </div>
           )}

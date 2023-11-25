@@ -8,8 +8,8 @@ function NewsList() {
 
   return (
     <div className={`news-container pb-3`}>
-      <div className="conatinaer">
-        <div className="row w-100">
+      <div className="container">
+        <div className="row ">
           {newsData.map((ele ,ind)=>{
             return (<div key={ind} className="col-lg-4 col-sm-5 mx-sm-auto gy-4">
               <NewsCard

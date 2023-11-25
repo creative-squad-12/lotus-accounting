@@ -13,8 +13,8 @@ function TestimonialCard(props) {
         <p>{props.clientReview}</p>
 
         <div className="testimonial-card-info">
-          <p className="d-flex align-items-center gap-2">{props.count} <div style={{width:"20px",border:"1px solid #8F8F8F",margin:"auto"}}></div> {props.total}</p>
-          <div className="testimonial-card-control">
+          <p className="d-flex align-items-center gap-2">{props.count} <div style={{width:"35px",border:"1px solid #8F8F8F",margin:"auto"}}></div> {props.total}</p>
+          <div className="testimonial-card-control gap-md-5 gap-3">
             <div className="swiper-button-prev" onClick={props.handlePrevButtonClick}>
                 <img src="/images/icons/arrow-left.svg"/>
             </div>

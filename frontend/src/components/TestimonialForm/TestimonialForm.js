@@ -1,13 +1,13 @@
 import React from 'react'
 import "./TestimonialForm.css"
 import Testimonials from './Testimonials/Testimonials'
-import ContactForm from "./Contact Form/Contactform"
+import PartnerCompanies from './PartnerCompanies/PartnerCompanies'
 
 function TestimonialForm() {
   return (
-    <div className='testimonial-form-container' style={{ backgroundImage: `url(/images/creative/contact-form-bg.jpg)` }}>
+    <div className='testimonial-form-container'>
+        <PartnerCompanies/>
         <Testimonials/>
-        <ContactForm />
     </div>
   )
 }

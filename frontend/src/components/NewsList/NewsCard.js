@@ -13,7 +13,7 @@ function NewsCard(props) {
           <span className="card_title">{props.title}</span>
         </h4>
         <div className="blog_list_logo mt-3">
-          <img alt="Empathy" src="/images/creative/card-logo.png" className="blog_list_logo_img"/>
+          <img alt="lotus" src="/images/creative/card-logo.png" className="blog_list_logo_img"/>
           <div className="blog_list_logo_text">
             <h6 className="blog_list_logo_title m-0">Lotus Accounting</h6>
             <p className="blog_list_logo_date m-0">June, 19, 2027</p>

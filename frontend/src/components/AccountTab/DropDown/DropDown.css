@@ -1,0 +1,39 @@
+.financial-dropdown-container
+{
+
+}
+
+.financial-dropdown-container .dropdown-box
+{
+    cursor:pointer;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.financial-dropdown-container .text-content .line-seprator{
+  border: 1px solid rgba(128, 128, 128, 0.349);
+}
+
+
+.financial-dropdown-container .dropdown-box .box-head .title{
+    font-weight: 600;
+}
+
+
+@keyframes bottomBoxOpen {
+    from{
+        display: none;
+    }
+    to{
+       display: block;
+    }
+}
+@keyframes bottomBoxClose {
+    from{
+        display: block;
+    }
+    to{
+       display: none;
+    }
+}

@@ -5,6 +5,7 @@ import TestimonialForm from '../components/TestimonialForm/TestimonialForm'
 import Blog from "../components/CardBlog/CardBlog"
 import AboutIcons from '../components/AboutIcons/AboutIcons'
 import AboutIdeas from '../components/AboutIdeas/AboutIdeas'
+import AboutHistory from '../components/AboutHistory/AboutHistory'
 
 function about() {
   return (
@@ -18,8 +19,9 @@ function about() {
           btn={false}
         />
         <CompanySupport/>
-        <AboutIcons/>
+        <AboutHistory/>
         <AboutIdeas/>
+        <AboutIcons/>
         <Blog/>
         <TestimonialForm/>
     </>

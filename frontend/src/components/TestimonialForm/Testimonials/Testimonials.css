@@ -1,9 +1,6 @@
 .Testimonials-container
 {
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #FBFBFB;
+    background-color: #E9E9E9;
     border-bottom-left-radius:50px ;
     border-bottom-right-radius: 50px;
     display: flex;
@@ -22,7 +19,7 @@
 
 .Testimonials-container .testimonial-card
 {
-    background-color: #FBFBFB;
+    background-color: #E9E9E9;
     padding: 15px 25px;
     border-radius: 10px;
     display: flex;

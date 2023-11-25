@@ -14,8 +14,9 @@ function home() {
         Heading="WELCOME TO"
         Paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
         btnText="Get Consultation"
-        bgImg="/images/creative/Hero.jpg"
-        btn="true"
+        bgImg=""
+        bgVideo={true}
+        btn={true}
       />
       <WhatWeDo/>
       <FinancialDropdown/>

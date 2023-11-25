@@ -11,6 +11,25 @@
   min-height: 33em;
 }
 
+.bg-video
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.536);
+}
+
+.bg-video video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .common_hero_section .hero_content_wrapper {
   display: flex;
   padding-left: 0%;
@@ -29,12 +48,6 @@
 
 .common_hero_section .hero_content_wrapper .hero-btn
 {
-  background-color: #283285;
-  color: white;
-  border-radius: 20px;
-  border: none;
-  padding: 7px 30px;
-  padding-bottom: 9px;
   transition: .3s;
 }
 .common_hero_section .heading-color-change
@@ -49,19 +62,14 @@
 }
 .common_hero_section .service-form .service-from-btn
 {
-  background-color: #283285;
-  color: white;
-  font-weight: 600;
   width: fit-content;
-  padding: 5px 25px;
-  border: none;
-  border-radius: 20px;
   margin-top: 25px;
 }
 .common_hero_section .service-form input
 {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background:transparent;
   margin-top: 20px;
 
 }
@@ -81,5 +89,9 @@
   .common_hero_section .hero-text-content .body-paragraph 
   {
     width : 100%;
+  }
+  .common_hero_section .hero-text-content 
+  {
+    padding-left: 6%;
   }
 }

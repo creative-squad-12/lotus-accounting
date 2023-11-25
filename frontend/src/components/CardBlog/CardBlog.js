@@ -21,7 +21,7 @@ function CardTestimonial() {
             </div>
             <div className="col-md-6">
               <div className="blog-btn">
-                <button>See All</button>
+                <button className="blue-btn">See All</button>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ function CardTestimonial() {
                   slidesPerView: 3,
                 }
               }}
-            className="card-list p-4"
+            className="card-list py-4"
             >
             {blogData.map((blogData,ind)=>{
               return (<>
