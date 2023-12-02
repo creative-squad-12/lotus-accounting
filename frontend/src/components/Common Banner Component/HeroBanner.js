@@ -80,7 +80,7 @@ const HeroBanner = ({
                   className="body-paragraph text-start"
                   style={{ color: "black" }}
                 >
-                  Let’s discuss your project and find out what we
+                  For general inquiries or to schedule a consultation, please complete the form below.
                 </p>
                 <input type="text" placeholder="Your Full Name" />
                 <input type="text" placeholder="Your Email Address" />

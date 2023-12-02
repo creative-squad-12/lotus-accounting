@@ -8,9 +8,9 @@ function CompanySupport() {
             <div className='row gy-4'>
                 <div className='col-md-6'>
                     <div className='text-content d-flex flex-column align-items-start justify-content-center gap-4'>
-                        <h3 className='body-heading mb-0' style={{color:"#283285"}}>Lorem Ipsum is simply dummy text of the printing</h3>
-                        <h6>"No matter how small your business, Lotus Accounting can help you grow"</h6>
-                        <p className='body-paragraph'>Lotus Accounting is a chartered professional accounting firm (CPA). The ‘Chartered’ title is recognized around the world as a professional designation indicating the highest levels of technical expertise</p>
+                        <h3 className='body-heading mb-0' style={{color:"#283285"}}>Profitable Partnerships Start with Prudent Accounting</h3>
+                        <h6>"Trust Your Numbers to Us for Expert Tax and Accounting Services"</h6>
+                        <p className='body-paragraph'>Lotus Accounting stands as a Chartered Professional Accounting firm (CPA), a globally recognized designation symbolizing top-tier technical expertise and ethical conduct. CPAs proudly showcase the 'CPA' designation after their name. Consider these compelling reasons for selecting a CPA as your trusted professional advisor:</p>
                         <ul className='px-0'>
                             <li className='d-flex gap-5 my-2 align-items-center'><img src='/images/icons/tick.svg' /><p className='m-0'>Professionally qualified</p></li>
                             <li className='d-flex gap-5 my-2 align-items-center'><img src='/images/icons/tick.svg' /><p className='m-0'>Undertake mandatory professional development</p></li>

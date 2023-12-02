@@ -10,9 +10,9 @@ function home() {
   return (
     <>
       <CommonBanner
-        subHeading="LOTUS ACCOUNTING"
-        Heading="WELCOME TO"
-        Paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+        subHeading="Accounting & bookkeeping"
+        Heading="Lotus Accounting"
+        Paragraph="Gain financial confidence with our expert tax and accounting services. Whether you are managing a small business or starting a new company, we guarantee that your finances will be optimized to work in your favor."
         btnText="Get Consultation"
         bgImg=""
         bgVideo={true}

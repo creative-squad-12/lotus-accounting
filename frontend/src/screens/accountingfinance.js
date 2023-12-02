@@ -72,8 +72,8 @@ function accountingfinance() {
     <>
       <CommonBanner
         subHeading=""
-        Heading="ACCOUNTING & FINANCE"
-        Paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took."
+        Heading="Accounting & Tax"
+        Paragraph="Our team of Chartered Professional Accountants is committed to providing you with strategic insights and personalized advice across a spectrum of financial services."
         btnText=""
         bgImg="/images/creative/services-inner-bg.jpg"
         btn={false}

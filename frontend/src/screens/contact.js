@@ -7,9 +7,9 @@ function contact() {
     <>
         <CommonBanner
           subHeading=""
-          Heading="Need help with OUR SERVICES?"
-          spanHeading=" Let’s talk!"
-          Paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+          Heading="Contact Lotus Accounting:"
+          spanHeading=" Your Partner in Financial Success"
+          Paragraph="Our team of talented and experienced Chartered Professional Accountants is here to assist you with complex accounting and tax matters."
           btnText=""
           bgImg="/images/creative/contact-bg.jpg"
           btn={false}

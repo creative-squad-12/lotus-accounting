@@ -3,6 +3,9 @@ import"./FinancialDropdown.css"
 
 function DropDownBox(props) {
     const [dropOpen , setDropOpen] = useState(false)
+
+    const paragraphs = props.content.split('\n').map((paragraph, index) => <p key={index}>{paragraph}</p>);
+
   return (
     <div
       className={`dropdown-box py-4`}
@@ -18,7 +21,7 @@ function DropDownBox(props) {
         <img src='/images/icons/dropdown-arrow.png' className={dropOpen ? "rotate-icon":"rotate-back" }/>
       </div>
       <div className="box-content mt-2" style={dropOpen?{animation:"bottomBoxOpen .6s ease-in-out",display:"block"}:{animation:"bottomBoxClose .3s ease-in-out",display:"none"}}>
-          <p>{props.content}</p>
+          {paragraphs}
       </div>
     </div>
   );

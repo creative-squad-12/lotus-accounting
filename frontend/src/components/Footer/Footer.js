@@ -11,8 +11,8 @@ function Footer() {
                     <img  src="/images/icons/newslater.png" alt="" />
                 </div>
                 <div className="text-content">
-                    <h3>Subscribe Our Newsletter</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <h3>Subscribe to Lotus Accounting</h3>
+                    <p>Enter your email to stay informed with the updates regarding tax and accounting services</p>
                 </div>
             </div>
             <div className="newsletter-form">
@@ -29,7 +29,7 @@ function Footer() {
         <div className="middle-links-container">
             <div className="left">
                 <img src="images/icons/logo.png" alt="" />
-                <p className="body-paragraph mt-4" style={{color : "#FFFFFF",fontSize:".7rem"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                <p className="body-paragraph mt-4" style={{color : "#FFFFFF",fontSize:".7rem"}}>A full-service bookkeeping, accounting, and tax firm dedicated to delivering tailored and superior financial solutions.</p>
             </div>
             <div className="right">
                 <ul className="right-upper">

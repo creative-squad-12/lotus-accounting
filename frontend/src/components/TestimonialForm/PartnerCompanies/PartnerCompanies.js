@@ -7,8 +7,8 @@ function PartnerCompanies() {
   return (
   <div className='partnerCompanies_container standard-padding-space'>
       <div className="blog-text-content text-center ">
-          <p className="sub-heading">OUR CLIENTS</p>
-          <h3 className="body-heading">LOREM IPSUM LOREM IPSUM</h3> 
+          <p className="sub-heading">Lotus Accounting</p>
+          <h3 className="body-heading">Client success stories</h3> 
         </div>
         <div className="companies-logo-box mx-3">
         <Swiper

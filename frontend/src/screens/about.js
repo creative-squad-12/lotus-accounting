@@ -13,7 +13,7 @@ function about() {
         <CommonBanner
           subHeading="ABOUT US"
           Heading= "WHY LOTUS ACCOUNTING"
-          Paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took."
+          Paragraph="Our dedicated staff at Lotus Accounting comprises Chartered Professional Accountants with accounting degrees, QuickBooks trained and certified to ensure the highest standards of service."
           btnText=""
           bgImg="/images/creative/about-bg.jpg"
           btn={false}
