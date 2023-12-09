@@ -1,6 +1,6 @@
 .account-tab-container
 {
-    min-height: 40em;
+    
 }
 
 .account-tab-container .left-tab-content 
@@ -47,8 +47,7 @@
 {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(220,229,235,1) 100%);
     padding: 10px;
-    padding-top: 80px;
-    height: 550px;
+    height: 460px;
     overflow: scroll;
 }
 

@@ -30,12 +30,12 @@ const onClickService = (e) => {
 
   return (
     <div className={`header`}>
-      <div className="header-wrapper ">
+      <div className="header-wrapper container">
         <nav className="navbar d-md-flex flex-md-row d-block">
-          <nav className="navbar-container px-4 py-2">
+          <nav className="navbar-container py-2">
             <div className="nav-elements d-flex justify-content-between align-items-center px-lg-2">
               <input className="d-none" type="checkbox" id="menu-toggle" />
-              <img src="/images/icons/logo.png" className="nav-logo" />
+              <img src="/images/icons/logo.png" className="nav-logo" onClick={()=>{navigate("/home")}}/>
               <nav>
                 <ul
                   className="nav-list d-lg-flex gap-xl-4 align-items-center d-none main-nav"
@@ -104,7 +104,7 @@ const onClickService = (e) => {
               </label>
 
               <div className="nav-buttton ml-5 d-lg-flex d-none gap-4 extras-btns">
-                <button className="blue-btn">
+                <button className="blue-btn" onClick={()=>{navigate("/contact")}}>
                   Get Consultation
                 </button>
               </div>
@@ -162,7 +162,7 @@ const onClickService = (e) => {
               </li>
             </ul>
             <div className="nav-buttton flex-wrap d-flex gap-4 extras-btns">
-              <button className="blue-btn">
+              <button className="blue-btn" onClick={()=>{navigate("/contact")}}>
                 Get Consultation
               </button>
             </div>

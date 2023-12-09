@@ -5,6 +5,7 @@ import CommonBanner from "../components/Common Banner Component/HeroBanner"
 import TestimonialForm from '../components/TestimonialForm/TestimonialForm'
 import Blog from "../components/CardBlog/CardBlog"
 import FinancialDropdown from '../components/FinancialDropdown/FinancialDropdown'
+import PartnerCompanies from '../components/PartnerCompanies/PartnerCompanies'
 
 function home() {
   return (
@@ -21,8 +22,9 @@ function home() {
       <WhatWeDo/>
       <FinancialDropdown/>
       <DiscoverServices/>
+      <PartnerCompanies/>
       <Blog/>
-      <TestimonialForm/>
+      <TestimonialForm PartnerCompaniesSection={false}/>
     </>
   )
 }

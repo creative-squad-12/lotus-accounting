@@ -23,14 +23,14 @@
     align-items: center;
     border-radius: 10px;
     justify-content: center;
-    gap: 15px;
-    padding:15px 10px;
+    gap: 10px;
+    padding:25px 15px;
     transition: .3s;
 }
 .discover-container .discover-card-box:hover
 {
-    background-color: rgb(199, 199, 236);
-    /* color: white; */
+    background-color: #B7BBBF;
+    color: white!important;
     border: 1px solid #283285;
     cursor: pointer;
 }
@@ -49,9 +49,11 @@
 {
     font-size: 1rem;
     font-weight:600;
+    margin-top: 10px;
 }
 
 .discover-container .discover-card-box .card-content
 {
     font-size: .8rem;
+    margin-bottom: 0;
 }

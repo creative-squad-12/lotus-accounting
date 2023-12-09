@@ -2,6 +2,27 @@
 {
 
 }
+.financial-dropdown-container .dropdown-container
+{
+  height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin; 
+  scrollbar-color: transparent transparent;
+}
+
+.financial-dropdown-container .dropdown-container::-webkit-scrollbar {
+  width: 2px; 
+
+}
+
+.financial-dropdown-container .dropdown-container::-webkit-scrollbar-thumb {
+  background-color: transparent; 
+}
+
+.financial-dropdown-container .dropdown-container::-webkit-scrollbar-track {
+  background-color: transparent; 
+}
+
 
 .financial-dropdown-container .dropdown-container .dropdown-box
 {

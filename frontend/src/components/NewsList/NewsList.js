@@ -4,7 +4,14 @@ import NewsCard from "./NewsCard";
 
 function NewsList() {
 
-  const newsData = [{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"},{img:"/images/creative/news-card.jpg",title:"Lorem Ipsum is simply dummy text lorem Ipsum is simply"}]
+  const newsData = [
+    {img:"/images/creative/news-card.jpg",title:"The Importance of Accounting Services for Toronto Startups: A Crucial Consideration"},
+    {img:"/images/creative/news-card.jpg",title:"Assessing the Risks: Is DIY Bookkeeping a Worthwhile Venture?"},
+    {img:"/images/creative/news-card.jpg",title:"Tax Planning for Toronto Corporations: Strategies for Optimal Financial Health"},
+    {img:"/images/creative/news-card.jpg",title:"Payroll Precision: Best Practices for Toronto Businesses"},
+    {img:"/images/creative/news-card.jpg",title:"Beyond Compliance: The Role of Accounting in Toronto Regulation"},
+    {img:"/images/creative/news-card.jpg",title:"Future-Proofing Your Finances: Toronto Business Planning Essentials"}
+  ]
 
   return (
     <div className={`news-container pb-3`}>

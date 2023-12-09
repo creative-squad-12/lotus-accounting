@@ -13,7 +13,21 @@
 
 .aboutIdeas-container .text-sub-heading
 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: #283285;
+}
+
+.aboutIdeas-container .text-card
+{
+    box-shadow: 0px 0 15px 0 #28318598;
+    border-radius: 10px;
+    padding: 20px 10px;
+    height: 100%;
+    transition: .3s;
+}
+.aboutIdeas-container .text-card:hover
+{
+    cursor: pointer;
+    padding: 25px 15px;
 }

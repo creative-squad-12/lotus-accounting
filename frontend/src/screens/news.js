@@ -9,8 +9,8 @@ function news() {
     <>
       <CommonBanner
           subHeading=""
-          Heading="LATEST NEWS"
-          Paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took."
+          Heading="Lotus accounting knowledge and insights"
+          Paragraph="At Lotus Accounting, we believe that knowledge is the key to financial empowerment. Join us on this blog to gain the insights you need for a prosperous financial future."
           btnText=""
           bgImg="/images/creative/news-bg.jpg"
           btn={false}

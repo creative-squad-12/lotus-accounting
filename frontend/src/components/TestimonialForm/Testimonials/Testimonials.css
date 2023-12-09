@@ -1,8 +1,8 @@
 .Testimonials-container
 {
     background-color: #E9E9E9;
-    border-bottom-left-radius:50px ;
-    border-bottom-right-radius: 50px;
+    border-top-left-radius:50px ;
+    border-top-right-radius: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,6 +71,11 @@
 .Testimonials-container .profile-info .profile-info-text img
 {
    width: 100px;
+}
+
+.Testimonials-container .text-content .read-more-btn
+{
+    padding: .4rem 1.3rem;
 }
 
 .Testimonials-container .profile-info img{

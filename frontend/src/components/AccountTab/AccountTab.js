@@ -15,7 +15,7 @@ const AccountTab = (props)=>{
     const panel = findObjectById(selected)
 
     return(
-        <div className='account-tab-container standard-margin-space'>
+        <div className='account-tab-container standard-margin-space py-4'>
             <div className='container-fluid' style={{paddingLeft:"5%"}}>
                 <div className='row gy-5'>
                     <div className='col-md-4'>

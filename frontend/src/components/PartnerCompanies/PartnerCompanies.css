@@ -1,13 +1,20 @@
 .partnerCompanies_container .companies-logo-box
 {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding:4rem 10px ;
-    gap: 30px;
+    gap: 30px; */
 }
  
 .partnerCompanies_container .companies-logo-box img{
     width: 240px;
     max-height: 30px;
+}
+
+.partnerCompanies_container .swiper-slide
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -15,7 +15,7 @@ function CardBox(props) {
             </div>
           </div>
           <h5>{props.title}</h5>
-          <p>{props.content}</p>
+          <p className="mb-2">{props.content}</p>
           <a href={props.readMoreRef} className="read-more-anchor">Read More</a>
         </div>
     </div>

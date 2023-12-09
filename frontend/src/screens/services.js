@@ -3,6 +3,7 @@ import CommonBanner from "../components/Common Banner Component/HeroBanner"
 import TestimonialForm from '../components/TestimonialForm/TestimonialForm'
 import Blog from "../components/CardBlog/CardBlog"
 import ServicesTextContent from '../components/ServicesTextContent/ServicesTextContent'
+import AboutHistory from '../components/AboutHistory/AboutHistory'
 
 function services() {
   return (
@@ -30,6 +31,7 @@ function services() {
             shiftRow={true}
             bgColor={"#F8F8F8"}
         />
+        <AboutHistory/>
         <ServicesTextContent
             heading={"Business Plan & Cash Flow Projections"}
             content={"Create a strategic roadmap with Lotus Accounting's Business Plan & Cash Flow Projections service. Our experts collaborate with you to craft comprehensive business plans and accurate cash flow projections. Whether you're launching a new venture or expanding an existing one, we facilitate the articulation of your goals, ensuring a financially sound and prosperous future for your business."}
@@ -44,35 +46,7 @@ function services() {
             shiftRow={true}
             bgColor={"#F8F8F8"}
         />
-        {/* <ServicesTextContent
-            heading={"Financial Statements & Analysis"}
-            content={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."}
-            img={'/images/creative/services-5.png'}
-            shiftRow={false}
-            bgColor={"#ffffff"}
-        />
-        <ServicesTextContent
-            heading={"Budgeting & Forecasting"}
-            content={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."}
-            img={'/images/creative/services-6.png'}
-            shiftRow={true}
-            bgColor={"#F8F8F8"}
-        />
-        <ServicesTextContent
-            heading={"Business Plan & Cash Flow"}
-            content={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."}
-            img={'/images/creative/services-7.png'}
-            shiftRow={false}
-            bgColor={"#ffffff"}
-        />
-        <ServicesTextContent
-            heading={"Business Incorporation"}
-            content={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."}
-            img={'/images/creative/services-8.png'}
-            shiftRow={true}
-            bgColor={"#F8F8F8"}
-        /> */}
-        
+       
         <Blog/>
         <TestimonialForm/>
     </>

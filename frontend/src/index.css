@@ -52,6 +52,10 @@
   letter-spacing: 1px;
   border-radius: 20px;
 }
+.blue-btn:hover{ 
+  background-color: #20276a;
+  cursor: pointer;
+}
 
 .blue-btn span {
   margin-right: .4rem;

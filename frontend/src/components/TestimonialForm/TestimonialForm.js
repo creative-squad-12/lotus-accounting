@@ -1,12 +1,14 @@
 import React from 'react'
 import "./TestimonialForm.css"
 import Testimonials from './Testimonials/Testimonials'
-import PartnerCompanies from './PartnerCompanies/PartnerCompanies'
+import PartnerCompanies from '../PartnerCompanies/PartnerCompanies'
 
-function TestimonialForm() {
+function TestimonialForm({
+  PartnerCompaniesSection=true
+}) {
   return (
     <div className='testimonial-form-container'>
-        <PartnerCompanies/>
+        {PartnerCompaniesSection && <PartnerCompanies/>}
         <Testimonials/>
     </div>
   )

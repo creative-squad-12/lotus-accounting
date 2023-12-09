@@ -2,6 +2,7 @@
     background: transparent;
     z-index: 1;
     position: relative;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,6 +16,7 @@
     width: 100%;
 }
 .header .header-wrapper .navbar .navbar-container .nav-logo{
+  cursor: pointer;
     max-width:100px;
 }
 
@@ -105,6 +107,10 @@
 {
     color: black;
 }
+.header .resp-nav-list .nav-links:hover
+{
+    color: #283285;
+}
 
 .header .resp-nav-list li{
     list-style: none;
@@ -147,6 +153,9 @@
     color: black;
     list-style: none;
     text-decoration: none;
+  }
+  .dropdown-content .nav-links:hover{
+    color: #283285;
   }
   
   

@@ -1,10 +1,4 @@
-.what-we-do-container .about-btn
+.what-we-do-container .blue-btn
 {
-    background-color: #283285;
     padding: 7px 25px;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    font-weight: 600;
-    cursor :pointer;
 }

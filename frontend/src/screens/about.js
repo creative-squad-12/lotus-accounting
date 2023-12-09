@@ -2,7 +2,7 @@ import React from 'react'
 import CompanySupport from '../components/ComapnySupport/CompanySupport'
 import CommonBanner from "../components/Common Banner Component/HeroBanner"
 import TestimonialForm from '../components/TestimonialForm/TestimonialForm'
-import Blog from "../components/CardBlog/CardBlog"
+import PartnerCompanies from '../components/PartnerCompanies/PartnerCompanies'
 import AboutIcons from '../components/AboutIcons/AboutIcons'
 import AboutIdeas from '../components/AboutIdeas/AboutIdeas'
 import AboutHistory from '../components/AboutHistory/AboutHistory'
@@ -18,12 +18,12 @@ function about() {
           bgImg="/images/creative/about-bg.jpg"
           btn={false}
         />
+        <PartnerCompanies/>
+        <AboutIdeas/>
         <CompanySupport/>
         <AboutHistory/>
-        <AboutIdeas/>
         <AboutIcons/>
-        <Blog/>
-        <TestimonialForm/>
+        <TestimonialForm PartnerCompaniesSection={false}/>
     </>
   )
 }

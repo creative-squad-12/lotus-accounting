@@ -1,13 +1,14 @@
 import "./Testimonials.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import { Autoplay } from "swiper/modules";
 import TestimonialCard from "./TestimonialCard";
 
 function Testimonials() {
   const blogData = [
-    {count:1,clientName:"VJ Cleaning Inc. Toronto" ,clientImg:"/images/creative/user-img.png", clientReview:"We've been using Lotus Accounting from last year since my last accountant let me down, and we’ve been very impressed with the service we've received. Lotus Accounting accountants are very professional and very knowledgeable regarding my business. They are very prompt and organized which keeps us very happy. We would very much recommend their services to everyone."},
-    {count:2,clientName:"Shankarganesh Balasundaram Cambridge" ,clientImg:"/images/creative/user-img.png", clientReview:"This year, my tax return was very complex due to various factors. I talked to couple of tax consultants before reaching out to Chandran and right off the bat, I found him to be very knowledgeable and knows his domain very well. He was very professional during the filing process and thanks to him I was able to maximize my returns. Highly recommendable!"},
-    {count:3,clientName:"Kethees-Gas Station Business Lindsay" ,clientImg:"/images/creative/user-img.png", clientReview:"Lotus Accounting is handling our accounting and tax issues. We are very pleased with their service. We frequently seek their advice on many business issues and receive excellent advice. They are an important part of our business team. We feel like they are a part of our team."}
+    {count:1,clientName:"Alice Benedict" ,clientImg:"/images/creative/user-img.png", clientReview:"My experience with Chandran in filing my family’s personal taxes has been extremely good. He is  thoroughly professional and well experienced. He helped us get the maximum tax benefits by paying great attention to details. I strongly recommend his consultation to anyone."},
+    {count:2,clientName:"Gayathiri Gesland" ,clientImg:"/images/creative/user-img.png", clientReview:"Chandran was very respectful, patient, and friendly. No pretenses and was quick and thorough. Helped guide me on where to locate required docs and answered my questions with expertise. Also reimbursed the cost for parking when I went over the 1 hour limit. Front desk staff was also very friendly. Thank you for making my visit a pleasant one. Appreciated it a lot and look forward to working with you in the future."},
+    {count:3,clientName:"Sharath S." ,clientImg:"/images/creative/user-img.png", clientReview:"I have been consulting Chandran for the past couple of years. He is highly professional and helpful. I have really impressed with his attention to each detail ; Moreover his specification , knowledge and experience will make a big difference. Would definitely recommend Chandran @ Lotus Accounting for your tax services ."}
   ]
 
   const handlePrevButtonClick = () => {
@@ -29,6 +30,9 @@ function Testimonials() {
           <div className="text-content mx-auto mx-lg-0">
               <p className="sub-heading">Testimonials</p>
               <h3 className="body-heading">Hear it from our clients</h3>
+              <a href="https://www.google.com/maps/place/Lotus+Accounting+Professional+Corporation/@43.7894193,-79.236172,17z/data=!3m1!5s0x89d4d15a7f1afcab:0x64bc3e7ec011cee1!4m8!3m7!1s0x89d4d7675a90e4b7:0x889bff97ffa2180e!8m2!3d43.7894193!4d-79.236172!9m1!1b1!16s%2Fg%2F11fcq_d8br?hl=en-CA&entry=ttu" target="blank">
+                <button className="blue-btn read-more-btn my-md-1 my-3 mb-4">Read More</button>
+              </a>
           </div>
       </div>
       <div className="col-lg-6 col-md-12">
@@ -41,7 +45,12 @@ function Testimonials() {
               prevEl: '.swiper-button-prev',
             }}
             pagination={{ clickable: true }}
-            autoplay={{ delay: 3000 }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            modules={[Autoplay]}
             observer ={true}
             observeParents={true}
             parallax={true}

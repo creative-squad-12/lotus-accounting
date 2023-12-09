@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: start;
     gap: 10px;
+    margin-top: auto;
 }
 .news_card
 {
@@ -34,6 +35,10 @@
 {
     font-size:.9rem;
     font-weight: 600;
+}
+.news_card .card_text
+{
+    min-height: 220px;
 }
 
 .news_card .card_img

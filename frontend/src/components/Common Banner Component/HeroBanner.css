@@ -57,8 +57,19 @@
 }
 .common_hero_section .service-form
 {
-  background-color: white;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width: 90%;
+  background-color: #90909079;
+  color: white;
   border-radius: 10px;
+  border: 2px solid #2831853c;
+}
+.common_hero_section .service-form .body-paragraph,
+.common_hero_section .service-form .body-heading
+{
+  cursor: pointer;
+  color: white;
 }
 .common_hero_section .service-form .service-from-btn
 {
@@ -68,9 +79,15 @@
 .common_hero_section .service-form input
 {
   border: none;
-  border-bottom: 1px solid rgb(0, 0, 0);
-  background:transparent;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid white;
   margin-top: 20px;
+  padding-bottom: 10px;
+}
+.common_hero_section .service-form input::placeholder
+{
+  color: rgba(225, 225, 225, 0.971);
 
 }
 .common_hero_section .service-form input:focus

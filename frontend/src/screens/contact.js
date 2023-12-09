@@ -16,7 +16,7 @@ function contact() {
           socialLinks={true}
           serviceForm={true}
         />
-        <TestimonialForm/>
+        <TestimonialForm PartnerCompaniesSection={false}/>
     </>
   )
 }
